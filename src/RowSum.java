@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class RowSum {
-    static void colsum(int arr[][],int size1,int size2)
+    static void rowsum(int arr[][],int size1,int size2)
     {
         int sum[]=new int[size2];
         for(int i = 0; i < size1; i++) {
@@ -26,6 +26,6 @@ public class RowSum {
                 arr[i][j]=scanner.nextInt();
             }
         }
-        colsum(arr,rows,cols);
+        rowsum(arr,rows,cols);
     }
 }
